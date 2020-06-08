@@ -8,7 +8,6 @@ import org.springframework.stereotype.Component;
 @Component
 public class CustomTaskLifeCycleEventListener extends DefaultTaskEventListener {
 	
-	private static final Logger LOGGER = Logger.getLogger(CustomTaskLifeCycleEventListener.class);
 	
 	@Override
 	public void beforeTaskCompletedEvent(TaskEvent event) {

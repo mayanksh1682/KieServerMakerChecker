@@ -1,0 +1,18 @@
+import org.jbpm.process.core.datatype.impl.type.StringDataType;
+
+[
+ [
+ "name" : "CustomTask",
+ "parameters" : [
+ "MakerId" : new StringDataType(),
+ "MakerState" : new StringDataType()
+ ],
+ "results" : [
+   "ResultMakerId" : " new StringDataType(),
+   "ResultMakerState" : " new StringDataType(),
+   "ResultFromCustomWIH" : " new StringDataType()
+ ],
+ "displayName" : "CustomTask",
+ "icon" : ""
+ ]
+]

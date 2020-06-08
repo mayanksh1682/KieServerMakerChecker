@@ -287,16 +287,31 @@
 		</profile>
 	</profiles>
 
+	
 	<repositories>
 		<repository>
 			<id>jboss-public-repository-group</id>
 			<name>JBoss Public Repository Group</name>
-			<url>https://repository.jboss.org/nexus/content/groups/public/</url>
-			<layout>default</layout>
+			<url>http://repository.jboss.org/nexus/content/groups/public/</url>
 			<releases>
+				<enabled>true</enabled>
 				<updatePolicy>never</updatePolicy>
 			</releases>
 			<snapshots>
+				<enabled>true</enabled>
+				<updatePolicy>daily</updatePolicy>
+			</snapshots>
+		</repository>
+		<repository>
+			<id>maven-repo-group</id>
+			<name>MAven Public Repository Group</name>
+			<url>https://repo1.maven.org/maven2/</url>
+			<releases>
+				<enabled>true</enabled>
+				<updatePolicy>never</updatePolicy>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
 				<updatePolicy>daily</updatePolicy>
 			</snapshots>
 		</repository>
